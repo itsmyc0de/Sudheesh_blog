@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551719514662",
+    "firebase_url": "https://sudheesh-92669.firebaseio.com",
+    "project_id": "sudheesh-92669",
+    "storage_bucket": "sudheesh-92669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551719514662:android:3f684689128a96fd",
+        "android_client_info": {
+          "package_name": "com.example.kuttan.sudheesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551719514662-hsmfn5ickb0ohqkfp469bpauiq7ronb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuttan.sudheesh",
+            "certificate_hash": "BD2865FAFC577F26D0678553E06FD2C559298B44"
+          }
+        },
+        {
+          "client_id": "551719514662-g0hdics6tmso5kgnd150j1o7eirbtkrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAce9H0iP14DtRX0KpEftFPjTTjrrbEk7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551719514662-g0hdics6tmso5kgnd150j1o7eirbtkrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

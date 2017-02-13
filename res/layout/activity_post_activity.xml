@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cod_layout"
+    tools:context="com.example.kuttan.sudheesh.post_activity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/add_btn"
+        android:background="#00ffffff"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_text"
+        android:inputType="text"
+        android:background="@drawable/outline"
+        android:layout_below="@+id/post_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:hint="Title...."
+        android:paddingRight="20dp"
+        android:padding="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_desc"
+        android:inputType="text"
+        android:background="@drawable/outline"
+        android:hint="Description..."
+        android:layout_below="@+id/post_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:padding="15dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/post_button"
+        android:text="post"
+        android:background="@color/primary_material_dark"
+        android:textColor="#ffff" />
+
+
+</RelativeLayout>
